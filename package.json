@@ -1,6 +1,16 @@
 {
-  "name": "ui",
-  "version": "0.0.1",
+  "name": "@okkema/ui",
+  "version": "0.1.0",
+  "description": "Reusable UI components for okkema projects",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okkema/ui.git"
+  },
+  "homepage": "https://github.com/okkema/ui#readme",
+  "bugs": {
+    "url": "https://github.com/okkema/ui/issues"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
