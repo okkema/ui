@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/okkema/ui.git"
+    "url": "git+https://github.com/okkema/ui.git"
   },
   "homepage": "https://github.com/okkema/ui#readme",
   "bugs": {
