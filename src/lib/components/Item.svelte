@@ -2,8 +2,7 @@
   import type { Navigation } from "../types"
   export let item: Navigation
 
-  import { Dropdown } from "./Dropdown"
-  import { Icon } from "./Icon"
+  import { Dropdown, Icon } from ".."
 
   const {text, href, external, children, icon} = item
 </script>

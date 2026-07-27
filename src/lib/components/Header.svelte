@@ -1,7 +1,6 @@
 <script lang="ts">
   import type { Navigation } from "../types"
-  import { Icon } from "./Icon"
-  import { Item } from "./Item"
+  import { Icon, Item } from ".."
 
   export let navigation: Navigation[]
 

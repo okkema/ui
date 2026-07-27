@@ -1,6 +1,6 @@
 <script>
   import { toast } from "./toast"
-  import { Icon } from "./Icon"
+  import { Icon } from ".."
 </script>
 
 {#if $toast}
