@@ -1,0 +1,20 @@
+name: Publish
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: okkema/actions/npm-publish@main
+        with:
+          npm-token: ${{ secrets.NPM_TOKEN }}
+          version: ${{ github.event.release.tag_name }}
+          commit: 'true'
+          access: 'public'
+          node-version-file: '.nvmrc'
