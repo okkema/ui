@@ -10,5 +10,3 @@ jobs:
       - uses: okkema/actions/terraform@main
         with:
           terraform-token: ${{ secrets.TF_API_TOKEN }}
-        env:
-          TF_VAR_github_repository: okkema/ui
