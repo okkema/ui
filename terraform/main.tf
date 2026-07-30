@@ -1,5 +1,6 @@
 locals {
   secrets = {
+    "TF_API_TOKEN" : var.TF_API_TOKEN,
     "NPM_TOKEN" : var.NPM_TOKEN
   }
 }
