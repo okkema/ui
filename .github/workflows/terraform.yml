@@ -7,6 +7,6 @@ jobs:
   terraform:
     runs-on: ubuntu-latest
     steps:
-      - uses: okkema/actions/actions/terraform@main
+      - uses: okkema/actions/actions/terraform@v2
         with:
           terraform-token: ${{ secrets.TF_API_TOKEN }}
