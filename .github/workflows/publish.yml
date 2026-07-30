@@ -14,6 +14,7 @@ jobs:
     steps:
       - uses: okkema/actions/npm-publish@v2
         with:
+          scope: '@okkema'
           version: ${{ github.event.release.tag_name }}
           commit: 'true'
           access: 'public'
